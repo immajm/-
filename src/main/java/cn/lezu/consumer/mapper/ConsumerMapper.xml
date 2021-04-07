@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.lezu.consumer.mapper.ConsumerMapper">
+    <!-- 通用查询映射结果 -->
+    <resultMap id="UserResultMap" type="cn.lezu.consumer.entity.Consumer">
+        <result column="consumer_id" property="consumerId"/>
+        <result column="consumer_name" property="consumerName"/>
+        <result column="consumer_phone_number" property="consumerPhoneNumber"/>
+        <result column="consumer_is_member" property="consumerIsMember"/>
+        <result column="consumer_password" property="consumerPassword"/>
+        <result column="member_end_time" property="memberEndTime"/>
+        <result column="consumer_is_identity" property="consumerIsIdentity"/>
+        <result column="consumer_registration_time" property="consumerRegistrationTime"/>
+        <result column="consumer_head_image" property="consumerHeadImage"/>
+    </resultMap>
+</mapper>

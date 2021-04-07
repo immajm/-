@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.lezu.consumer.mapper.MemberMapper">
+    <!-- 通用查询映射结果 -->
+    <resultMap id="MemberResultMap" type="cn.lezu.consumer.entity.Member">
+        <result column="member_id" property="memberId"/>
+        <result column="consumer_id" property="consumerId"/>
+        <result column="member_growth_value" property="memberGrowthValue"/>
+        <result column="member_integral" property="memberIntegral"/>
+    </resultMap>
+</mapper>

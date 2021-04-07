@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.lezu.consumer.mapper.ShoppingCartMapper">
+    <!-- 通用查询映射结果 -->
+    <resultMap id="ShoppingCartResultMap" type="cn.lezu.consumer.entity.ShoppingCart">
+        <result column="shopping_cart_id" property="shoppingCartId"/>
+        <result column="consumer_id" property="consumerId"/>
+        <result column="good_id" property="goodId"/>
+        <result column="good_number" property="goodNumber"/>
+    </resultMap>
+</mapper>

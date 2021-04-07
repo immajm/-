@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.lezu.consumer.mapper.WalletMapper">
+    <!-- 通用查询映射结果 -->
+    <resultMap id="WalletResultMap" type="cn.lezu.consumer.entity.Wallet">
+        <result column="wallet_id" property="walletId"/>
+        <result column="consumer_id" property="consumerId"/>
+        <result column="wallet_money" property="walletMoney"/>
+        <result column="wallet_integral" property="walletIntegral"/>
+    </resultMap>
+</mapper>

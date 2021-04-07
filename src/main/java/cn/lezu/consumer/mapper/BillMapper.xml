@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.lezu.consumer.mapper.BillMapper">
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BillResultMap" type="cn.lezu.consumer.entity.Bill">
+        <result column="bill_id" property="billId"/>
+        <result column="wallet_id" property="walletId"/>
+        <result column="bill_money" property="billMoney"/>
+        <result column="bill_type" property="billType"/>
+        <result column="bill_time" property="billTime"/>
+        <result column="bill_counterparty" property="billCounterparty"/>
+        <result column="bill_note" property="billNote"/>
+        <result column="bill_transaction_type" property="billTransactionType"/>
+    </resultMap>
+</mapper>
